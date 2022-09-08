@@ -46,9 +46,6 @@ const TodoInput = ({ hideCreateTask,create, updateTask }) => {
           <button className={style.btn} onClick={submitForm}>
             Create
           </button>
-          <button className={style.btn} onClick={submitForm}>
-            Update
-          </button>
           <button className={style.btn} onClick={hideCreateTask}>
             Cancel
           </button>
