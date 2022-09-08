@@ -43,9 +43,6 @@ const TodoInput = ({ hideCreateTask,create, updateTask }) => {
             className={style.input}
             onChange={(e) => setDescription(e.target.value)}
           ></textarea>
-          <button className={style.btn} onClick={submitForm}>
-            Create
-          </button>
           <button className={style.btn} onClick={hideCreateTask}>
             Cancel
           </button>
